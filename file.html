@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Baap Er Bank </title>
+</head>
+<body>
+ <header>
+    <h1 class="text-5xl  mt-10 text-center">Le's get some <span class="text-lime-500 font-semibold">Mooooooooooney!!!!</span></h1>
+ </header>
+ <section class="mt-12">
+    <vid class="grid grid-cols-3 gap-4 w-9/12 mx-auto ">
+        <div class="bg-green-400 p-8 text-white rounded-lg ">
+            <h2 class="text-2xl">Diposit</h2>
+            <h4  class="text-5xl">$<span id="diposit-totel">00</span></h4>
+        </div>
+
+        <div class="bg-pink-400 p-8 text-white rounded-lg ">
+            <h2 class="text-2xl">Withdraw</h2>
+            <h4 class="text-5xl">$<span id="withdraw-totel">00</span></h4>
+        </div>
+
+        <div class="bg-red-400 p-8 text-white rounded-lg ">
+            <h2 class="text-2xl">Balance</h2>
+            <h4 class="text-5xl">$<span id="totel-Balance">1200</span></h4>
+        </div>
+    </vid>
+ </section>
+ <section class="mt-12">
+    <vid class="grid grid-cols-2 gap-4 w-9/12  m-auto">
+        <div class="bg-indigo-400 p-8 text-white rounded-md ">
+            <h2 class="text-2xl">Please Diposit</h2>
+            <div class="ml-16">
+                <input class=" w-9/12 block py-1 rounded-sm px-3 mt-2 text-black" type="text" name="" id="diposit-file" placeholder="$ Amount you want to diposit">
+                <button id="btn-diposit" class="bg-violet-600 mt-3 py-2 px-2 rounded-sm px-8 hover:bg-yellow-400 text-white font-bold">Diposit</button>
+            </div>
+        </div>
+
+        <div class="bg-violet-400 p-8 text-white rounded-md ">
+          
+            <h2 class="text-2xl">Please Withdraw</h2>
+         <div class="ml-16">
+            <input class=" w-9/12 block px-3 mt-2 py-1 rounded-sm text-black" type="text" name="" id="Withdraw-file" placeholder="$ Amount you want to withdraw">
+            <button id="btn-withdraw" class="bg-blue-800 mt-3 py-2 px-8 rounded-sm hover:bg-pink-500 text-white font-bold">Withdraw</button>
+         </div>
+      </div>
+    </vid>
+    </div>
+ </section>
+    <script src="./dioosit.js"></script>
+    <script src="./Withdraw.js"></script>
+</body>
+</html>
