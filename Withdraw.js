@@ -24,6 +24,7 @@ document.getElementById('btn-withdraw').addEventListener('click', function () {
     const totelBalance = document.getElementById('totel-Balance');
     const carentBalanceString = totelBalance.innerText;
     const carentBalance = parseFloat(carentBalanceString )
+    
     if(newwithdrawAmount > carentBalance){
         alert('Your balance low !!!')
         return
